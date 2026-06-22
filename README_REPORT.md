@@ -37,3 +37,39 @@ Para dúvidas técnicas ou ajustes adicionais, posso gerar um roteiro passo-a-pa
 
 ---
 Documento gerado automaticamente pela entrega; para histórico e auditoria ver commits no branch main.
+## Insights Principais
+
+1. Uso de Canais
+- O WhatsApp concentra a maior parte do volume de mensagens e é o principal driver de receita. Recomenda-se priorizar monitoramento e otimização de custo/preço para este canal.
+
+2. Concentração de Receita
+- Uma pequena porcentagem de clientes gera a maior parcela da receita (top N). Recomenda-se identificar estes clientes e garantir SLAs e planos de retenção dedicados.
+
+3. Correlação Tráfego x Suporte
+- Aumentos de volume de mensagens tendem a preceder picos de tickets de suporte. Implementar alertas de anomalia para tráfego que indiquem necessidade de scaling ou atenção do suporte.
+
+4. SLA e CSAT
+- Alguns segmentos/categorias apresentam tempo médio de resolução acima da média e CSAT abaixo do esperado. Priorizar investigação em categorias com alta porcentagem de detratores.
+
+## Recomendações de Ação
+
+- Implementar alertas operacionais: monitorar taxa de entrega, taxa de falhas e SLA médio por cliente e por canal.
+- Criar runbook de retenção: mapear clientes com queda de uso nos 3 meses anteriores e acionar Customer Success proativamente.
+- Implementar materialized views e agendador (cron) para precalcular métricas mensais e aliviar consultas no dashboard.
+- Adotar testes automatizados de métricas (SQL/unit tests) para garantir qualidade das métricas em PRs.
+- Versionar e publicar um pacote de métricas (camada semântica) para uso nos dashboards e relatórios.
+
+## Perguntas-chave para a Entrevista
+
+- Por que analisar os 3 meses antes do churn?
+  Porque as variações imediatas anteriores ao cancelamento são os sinais mais úteis para ação preventiva (queda de uso, aumento de falhas ou piora de CSAT).
+
+- Qual KPI é mais importante?
+  Receita isolada não basta; priorize conjunto: Receita, Churn, SLA e CSAT para avaliar saúde do cliente.
+
+## Próximos Passos
+
+1. Validar dashboards em instância limpa do Superset (import do ZIP). 
+2. Implementar monitoramento e alertas (Prometheus/Datadog ou processos internos). 
+3. Preparar pipeline ETL/ELT para camada analítica e automatizar refresh das materialized views.
+
