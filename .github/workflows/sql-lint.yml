@@ -1,0 +1,18 @@
+﻿name: SQL Lint
+
+on: [push, pull_request]
+
+jobs:
+  sqlfluff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install sqlfluff
+        run: pip install sqlfluff sqlfluff-templater-dbt
+      - name: Lint SQL files
+        run: |
+          sqlfluff lint sql --dialect postgres || true
