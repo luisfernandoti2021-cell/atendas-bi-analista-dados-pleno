@@ -1,0 +1,16 @@
+database_name: atendas_bi
+sqlalchemy_uri: postgresql://postgres:atendas_secure_pass@db:5432/atendas_bi
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_file_upload: false
+extra:
+  metadata_params: {}
+  engine_params: {}
+  metadata_cache_timeout: {}
+  schemas_allowed_for_file_upload: []
+uuid: 1e05499f-03a9-40db-8c0c-a66b083d2705
+version: 1.0.0
