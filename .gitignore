@@ -1,0 +1,33 @@
+﻿# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+env/
+
+# Superset
+/app/superset_home/
+
+# Database dumps
+*.sql.gz
+*.db
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Logs
+*.log
+
+# Ignore temp repo
+temp_repo/
+
