@@ -1,0 +1,11 @@
+slice_name: table_view_csat_by_segment
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params: null
+query_context: null
+cache_timeout: null
+uuid: 98162df4-590d-45ef-9398-0f721e5382cd
+version: 1.0.0
+dataset_uuid: 4ecaf586-cd22-4640-955e-ec0e5ba80991

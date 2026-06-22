@@ -1,0 +1,128 @@
+dashboard_title: Atendas BI - Final Auto Generated
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: 11cc82e2-23de-4e38-be6d-dd97bd613862
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-JJZBNJDZ
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: Atendas BI - Final Auto Generated
+    type: HEADER
+  ROW-N-JJZBNJDZ:
+    children:
+    - CHART-S0KB1C0J
+    - CHART-ASBN837X
+    - CHART-97KG06U3
+    - CHART-KGZ2P6WX
+    - CHART-MCM1IHGW
+    - CHART-ZC5YQ9BE
+    id: ROW-N-JJZBNJDZ
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-S0KB1C0J:
+    children: []
+    id: CHART-S0KB1C0J
+    meta:
+      chartId: 3
+      height: 50
+      sliceName: table_view_delivery_rate
+      uuid: 4fda9937-1803-44e0-874e-2ec0bd897119
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-JJZBNJDZ
+  CHART-ASBN837X:
+    children: []
+    id: CHART-ASBN837X
+    meta:
+      chartId: 4
+      height: 50
+      sliceName: table_view_churn_rev
+      uuid: 4d7fd9a3-3483-454a-838d-4f090934a1b4
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-JJZBNJDZ
+  CHART-97KG06U3:
+    children: []
+    id: CHART-97KG06U3
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: table_view_sla_by_category_month
+      uuid: 34683b21-6715-4435-899d-1dd606e8c74b
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-JJZBNJDZ
+  CHART-KGZ2P6WX:
+    children: []
+    id: CHART-KGZ2P6WX
+    meta:
+      chartId: 6
+      height: 50
+      sliceName: table_view_csat_by_segment
+      uuid: 98162df4-590d-45ef-9398-0f721e5382cd
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-JJZBNJDZ
+  CHART-MCM1IHGW:
+    children: []
+    id: CHART-MCM1IHGW
+    meta:
+      chartId: 2
+      height: 50
+      sliceName: table_view_finance_monthly
+      uuid: 4b99da3d-79ef-4951-baa7-ce2d8b022b7f
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-JJZBNJDZ
+  CHART-ZC5YQ9BE:
+    children: []
+    id: CHART-ZC5YQ9BE
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: table_view_detractors_by_category
+      uuid: 39faa089-c7b4-4925-868f-30269f55f927
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-JJZBNJDZ
+version: 1.0.0

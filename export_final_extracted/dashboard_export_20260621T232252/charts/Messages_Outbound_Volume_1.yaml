@@ -1,0 +1,10 @@
+slice_name: Messages Outbound Volume
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params: {}
+query_context: null
+cache_timeout: null
+uuid: 609bc360-4351-4ab1-8f53-af0c06d4a840
+version: 1.0.0

@@ -1,0 +1,11 @@
+slice_name: table_view_churn_rev
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params: null
+query_context: null
+cache_timeout: null
+uuid: 4d7fd9a3-3483-454a-838d-4f090934a1b4
+version: 1.0.0
+dataset_uuid: 19fbd345-ca84-4eae-a886-504ddb736548

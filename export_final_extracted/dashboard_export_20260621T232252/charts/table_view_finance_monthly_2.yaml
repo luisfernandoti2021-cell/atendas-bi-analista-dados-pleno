@@ -1,0 +1,11 @@
+slice_name: table_view_finance_monthly
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params: null
+query_context: null
+cache_timeout: null
+uuid: 4b99da3d-79ef-4951-baa7-ce2d8b022b7f
+version: 1.0.0
+dataset_uuid: 41668355-412b-4000-85b0-4b7ca0e034b5

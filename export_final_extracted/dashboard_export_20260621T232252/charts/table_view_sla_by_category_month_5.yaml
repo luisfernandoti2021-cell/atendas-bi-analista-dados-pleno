@@ -1,0 +1,11 @@
+slice_name: table_view_sla_by_category_month
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params: null
+query_context: null
+cache_timeout: null
+uuid: 34683b21-6715-4435-899d-1dd606e8c74b
+version: 1.0.0
+dataset_uuid: 78cd9488-a4fe-4dc6-8f6d-68fb2178b42f
